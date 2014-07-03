@@ -1,0 +1,49 @@
+html, body {
+
+}
+
+.km-view > .km-content {
+  background-color: #5CADE2;
+}
+
+.km-flat .km-list > li {
+  min-height: 60px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background: none;
+}
+
+.km-flat .km-list > li > p {
+  margin: 0;
+}
+
+.km-flat .km-list > li.bar-color-1 {
+  background-color: #81CDFF;
+}
+
+.km-flat .km-list > li.bar-color-2 {
+  background-color: #95651F;
+}
+
+.km-flat .km-list > li.bar-color-3 {
+  background-color: #E2AB5C;
+}
+
+.km-flat .km-list input {
+  width: 100%;
+  height: 30px;
+  height: 60px;
+  top: 0;
+  margin-top: 0;
+  font-size: inherit !important;
+  width: inherit !important;
+  color: white !important;
+}
+
+.km-flat .km-list input::-webkit-input-placeholder {
+  color: white;
+  font-size: 30px;
+  height: 60px;
+  line-height: normal;
+}

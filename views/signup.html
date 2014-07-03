@@ -1,0 +1,16 @@
+<div data-role="view" data-model="APP.models.signup" id="signup">
+  <ul data-role="listview">
+    <li class="bar-color-4" data-role="touch">
+      <input type="text" data-bind="value: username, events: { keyup: upper }" placeholder="CHOOSE USERNAME" data-value-update="keyup" data-upper="username">
+    </li>
+    <li class="bar-color-2" data-role="touch">
+      <input type="password" placeholder="CHOOSE PASSWORD" data-bind="value: password, events: { keyup: upper }" data-value-update="keyup" data-upper="password">
+    </li>
+    <li class="bar-color-1" data-role="touch" data-bind="events: { tap: signup }">
+      <p>TAP TO SIGNUP</p>
+    </li>
+    <li class="bar-color-1" data-role="touch" data-bind="events: { tap: back }">
+      <p>GO BACK</p>
+    </li>
+  </ul>
+</div>
