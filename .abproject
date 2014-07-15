@@ -70,5 +70,8 @@
 		"ID_RESOLUTION_HD720P"
 	],
 	"WP8PublisherID": "{c56e9b7e-79a9-433b-b9b3-7347ec2e73a8}",
-	"WP8ProductID": "{162a4342-19f2-4939-be52-345b9108cb75}"
+	"WP8ProductID": "{162a4342-19f2-4939-be52-345b9108cb75}",
+	"Framework": "Cordova",
+	"ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+	"IsRunnable": "true"
 }

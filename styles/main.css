@@ -12,6 +12,7 @@ html, body {
   color: white;
   text-align: center;
   background: none;
+  font-size: 30px;
 }
 
 .km-flat .km-list > li > p {
@@ -46,4 +47,5 @@ html, body {
   font-size: 30px;
   height: 60px;
   line-height: normal;
+  text-align: center;
 }

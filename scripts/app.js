@@ -13,8 +13,7 @@
     models: {
       login: {
         signup: function (e) {
-          // app.navigate('views/signup.html', 'slide');
-          app.navigate('views/access.html', 'overlay:up');
+          app.navigate('views/signup.html', 'overlay:up');
         }
       },
       signup: {
@@ -66,11 +65,12 @@
     },
     events: {
       inflate: function (e) {
-        $(e.view.wrapper).fitText();
+        fitText($(e.view.wrapper));
       },
       login: {
-        show: function () {
+        show: function (e) {
           // navigator.notification.alert('In Wow, everything is tappable. Tap anywhere to see what happens. Seriously, as if you weren\'t going to do that anyway', null, 'Wow!', 'Got it!');
+          // fitText($(e.view.wrapper));
         }
       }
     }
